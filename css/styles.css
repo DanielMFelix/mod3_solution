@@ -1,0 +1,106 @@
+body{
+    font-family: "Trebuchet MS", sans-serif;
+    background-color:#004818;
+    margin: 0;   
+}
+
+#header-nav{
+    background-color: #228048;
+    width:100%;
+    margin:0;
+    padding: 10px 10px 10px;
+    opacity: 0.8;
+    border-radius: 0;
+    border:0;
+}
+
+.container {
+    margin-left:10px;
+    padding-left: 5px;}
+
+#logo-img {
+    background: url("../food4.png") no-repeat;
+    width:280px;
+    height:120px;    
+}
+
+.navbar-header a{}
+
+.navbar-brand span{
+    color:#004818;
+    font-size: 1.2;
+}
+
+.navbar-brand p {
+    margin-top: 0px;
+    text-align: center;
+}
+.navbar-brand p span{vertical-align: middle;}
+.navbar-brand img {vertical-align: middle;}
+
+h1{ color: #F1F8F0;
+    margin: 5px;
+    margin-bottom: 2px;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+div .navbar-toggle {
+    float:right;
+    margin-right:0px;
+}
+
+
+section div {
+    background-color: #87CA8F;
+    padding:15px;
+    margin:20px;
+
+}
+
+h2{
+    color:#F1F8F0;
+    text-align: center;
+}
+
+section div h2{
+    color:#004818;
+    text-align: center;
+    margin-top:10px;
+}
+
+section div p{
+    color:#004818;
+}
+section div a{float:right;}
+
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color:#F1F8F0;
+    text-align: center;
+}
+
+#nav-list a:hover{
+    background: #87CA8F;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #004818;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -25px;
+}
+
+button{
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+@media (max-width:768px){
+    div.navbar-brand{
+        padding:0;
+    }
+}
